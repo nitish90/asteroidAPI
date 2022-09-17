@@ -79,7 +79,7 @@ class asteroidRangeVC: UIViewController,ChartViewDelegate {
         
         datePickerView.isHidden = true
         toolBarView.isHidden = true
-my        switch selectedDateTag {
+        switch selectedDateTag {
             
         case 1:
             startDateText = dateFormatter.string(from: datePickerView.date)
